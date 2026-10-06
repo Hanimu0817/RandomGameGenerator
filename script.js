@@ -104,6 +104,36 @@ const games = [
         recommendation: "Fast, flashy and full of crazy combos!"
     },
 
+    {
+        name: "Doom Eternal",
+        genre: "Action",
+        platform: "PC / Console",
+        players: "1",
+        difficulty: 5,
+        goal: "Fight through hordes of demons using powerful weapons.",
+        recommendation: "Extremely fast and intense action!"
+    },
+
+    {
+        name: "NieR:Automata",
+        genre: "Action",
+        platform: "PC / Console",
+        players: "1",
+        difficulty: 4,
+        goal: "Explore a ruined world and fight mysterious machines.",
+        recommendation: "Amazing story combined with stylish combat!"
+    },
+
+    {
+        name: "Hi-Fi Rush",
+        genre: "Action",
+        platform: "PC / Console",
+        players: "1",
+        difficulty: 3,
+        goal: "Fight enemies while matching your attacks to the music.",
+        recommendation: "Action combat with a fantastic rhythm twist!"
+    },
+
 
     // =========================
     // RPG
@@ -188,7 +218,66 @@ const games = [
         goal: "Capture creatures, build bases and survive.",
         recommendation: "A chaotic combination of survival and creature collecting!"
     },
+    
+    {
+        name: "Deltarune",
+        genre: "RPG",
+        platform: "PC / Console",
+        players: "1",
+        difficulty: 3,
+        goal: "Explore a strange world, meet unusual characters and battle enemies.",
+        recommendation: "Perfect for Undertale fans and story-focused RPG players!"
+    },
 
+    {
+        name: "Undertale",
+        genre: "RPG",
+        platform: "PC / Console / Mobile",
+        players: "1",
+        difficulty: 3,
+        goal: "Explore the Underground and decide how you deal with its inhabitants.",
+        recommendation: "A small RPG with a huge amount of personality!"
+    },
+
+    {
+        name: "Persona 3 Reload",
+        genre: "RPG",
+        platform: "PC / Console",
+        players: "1",
+        difficulty: 4,
+        goal: "Live as a student while exploring the mysterious Dark Hour.",
+        recommendation: "Great combination of dungeon combat, story and social simulation!"
+    },
+
+    {
+        name: "Persona 4",
+        genre: "RPG",
+        platform: "PC / Console",
+        players: "1",
+        difficulty: 4,
+        goal: "Investigate a mysterious series of events in a small Japanese town.",
+        recommendation: "A great mystery RPG with memorable characters!"
+    },
+
+    {
+        name: "Persona 4 Golden",
+        genre: "RPG",
+        platform: "PC / Console / Mobile",
+        players: "1",
+        difficulty: 4,
+        goal: "Solve a mysterious case while balancing school life and friendships.",
+        recommendation: "One of the best choices for a long story-driven RPG!"
+    },
+
+    {
+        name: "Persona 4 Revival",
+        genre: "RPG",
+        platform: "PC / Console",
+        players: "1",
+        difficulty: 4,
+        goal: "Return to Inaba and experience the Persona 4 story again.",
+        recommendation: "Perfect for Persona fans who want to revisit Inaba!"
+    },
     {
         name: "Arknights",
         genre: "RPG",
@@ -247,6 +336,26 @@ const games = [
         difficulty: 4,
         goal: "Explore a fantasy world and shape your own adventure.",
         recommendation: "Amazing for choices, exploration and party-based RPGs!"
+    },
+
+    {
+        name: "The Elder Scrolls V: Skyrim",
+        genre: "RPG",
+        platform: "PC / Console",
+        players: "1",
+        difficulty: 3,
+        goal: "Explore Skyrim and become a powerful hero.",
+        recommendation: "Perfect for huge open-world RPG adventures!"
+    },
+
+    {
+        name: "Cyberpunk 2077",
+        genre: "RPG",
+        platform: "PC / Console",
+        players: "1",
+        difficulty: 4,
+        goal: "Explore Night City and shape your own story.",
+        recommendation: "Great futuristic open-world RPG!"
     },
 
 
@@ -364,6 +473,36 @@ const games = [
         recommendation: "Great for survival horror with friends!"
     },
 
+    {
+        name: "The Binding of Isaac",
+        genre: "Survival",
+        platform: "PC / Console / Mobile",
+        players: "1-2",
+        difficulty: 5,
+        goal: "Explore randomly generated rooms and survive increasingly difficult enemies.",
+        recommendation: "A massive roguelike with endless replayability!"
+    },
+
+    {
+        name: "Don't Starve Together",
+        genre: "Survival",
+        platform: "PC / Console / Mobile",
+        players: "1-6",
+        difficulty: 5,
+        goal: "Work together to survive in a dangerous strange world.",
+        recommendation: "Survival gets much harder when you have friends!"
+    },
+
+    {
+        name: "DayZ",
+        genre: "Survival",
+        platform: "PC / Console",
+        players: "Multiplayer",
+        difficulty: 5,
+        goal: "Survive in a dangerous post-apocalyptic world.",
+        recommendation: "Very unforgiving survival gameplay!"
+    },
+
 
     // =========================
     // STRATEGY
@@ -459,6 +598,36 @@ const games = [
         recommendation: "Easy to start and surprisingly deep!"
     },
 
+    {
+        name: "WorldBox",
+        genre: "Strategy",
+        platform: "PC / Mobile",
+        players: "1",
+        difficulty: 2,
+        goal: "Create, simulate and control your own world.",
+        recommendation: "Perfect if you want to play god!"
+    },
+
+    {
+        name: "Stellaris",
+        genre: "Strategy",
+        platform: "PC / Console",
+        players: "1+",
+        difficulty: 5,
+        goal: "Build an interstellar civilization and explore the galaxy.",
+        recommendation: "Huge strategy possibilities for space fans!"
+    },
+
+    {
+        name: "Age of Empires IV",
+        genre: "Strategy",
+        platform: "PC / Console",
+        players: "1-8",
+        difficulty: 5,
+        goal: "Build an empire, manage resources and defeat your enemies.",
+        recommendation: "Classic real-time strategy!"
+    },
+
 
     // =========================
     // ADVENTURE
@@ -492,16 +661,6 @@ const games = [
         difficulty: 4,
         goal: "Explore Los Santos and experience an open-world story.",
         recommendation: "Huge open world with tons of things to do!"
-    },
-
-    {
-        name: "Cyberpunk 2077",
-        genre: "Adventure",
-        platform: "PC / Console",
-        players: "1",
-        difficulty: 4,
-        goal: "Explore Night City and shape your own story.",
-        recommendation: "Great for futuristic open-world exploration!"
     },
 
     {
@@ -605,13 +764,43 @@ const games = [
     },
 
     {
-        name: "8-Bit Adventures",
+        name: "Garry's Mod",
         genre: "Adventure",
         platform: "PC",
+        players: "1+",
+        difficulty: 2,
+        goal: "Create your own experiences using physics, tools and community content.",
+        recommendation: "Basically a giant sandbox for doing whatever you want!"
+    },
+
+    {
+        name: "Hollow Knight",
+        genre: "Adventure",
+        platform: "PC / Console",
         players: "1",
-        difficulty: 3,
-        goal: "Explore a pixel world and uncover its secrets.",
-        recommendation: "Great for classic adventure fans!"
+        difficulty: 5,
+        goal: "Explore a mysterious underground kingdom and defeat powerful enemies.",
+        recommendation: "Beautiful exploration with seriously challenging bosses!"
+    },
+
+    {
+        name: "Hollow Knight: Silksong",
+        genre: "Adventure",
+        platform: "PC / Console",
+        players: "1",
+        difficulty: 5,
+        goal: "Explore a mysterious kingdom and master fast combat.",
+        recommendation: "A challenging adventure for Metroidvania fans!"
+    },
+
+    {
+        name: "Outer Wilds",
+        genre: "Adventure",
+        platform: "PC / Console",
+        players: "1",
+        difficulty: 4,
+        goal: "Explore a mysterious solar system and uncover its secrets.",
+        recommendation: "One of the best exploration mysteries!"
     },
 
 
@@ -730,13 +919,13 @@ const games = [
     },
 
     {
-        name: "寻找伪人",
+        name: "No, I'm Not a Human",
         genre: "Horror",
         platform: "PC",
         players: "1",
         difficulty: 4,
-        goal: "Observe people carefully and identify who is not human.",
-        recommendation: "Perfect if you enjoy observation and psychological horror!"
+        goal: "Observe people carefully and determine who is not human.",
+        recommendation: "Perfect if you enjoy paranoia and observation horror!"
     },
 
     {
@@ -767,6 +956,16 @@ const games = [
         difficulty: 4,
         goal: "Explore a strange world and escape terrifying creatures.",
         recommendation: "Creepy atmosphere and clever puzzles!"
+    },
+
+    {
+        name: "Amnesia: The Dark Descent",
+        genre: "Horror",
+        platform: "PC / Console",
+        players: "1",
+        difficulty: 5,
+        goal: "Explore a mysterious castle while uncovering its secrets.",
+        recommendation: "Classic atmospheric horror!"
     },
 
 
@@ -881,7 +1080,27 @@ const games = [
         players: "Multiplayer",
         difficulty: 5,
         goal: "Control military vehicles and compete in large-scale battles.",
-        recommendation: "Perfect if you enjoy tanks, aircraft and military vehicles!"
+        recommendation: "Perfect for tanks, aircraft and military vehicles!"
+    },
+
+    {
+        name: "Titanfall 2",
+        genre: "Gun-Like",
+        platform: "PC / Console",
+        players: "1-16",
+        difficulty: 4,
+        goal: "Fight using advanced weapons, movement and giant Titans.",
+        recommendation: "Amazing movement and fast-paced combat!"
+    },
+
+    {
+        name: "Team Fortress 2",
+        genre: "Gun-Like",
+        platform: "PC",
+        players: "Multiplayer",
+        difficulty: 3,
+        goal: "Choose a class and work with your team to complete objectives.",
+        recommendation: "Chaotic team-based shooting!"
     },
 
 
@@ -979,6 +1198,26 @@ const games = [
         recommendation: "Great for technical fighting game fans!"
     },
 
+    {
+        name: "Guilty Gear Strive",
+        genre: "FTG",
+        platform: "PC / Console",
+        players: "1-2",
+        difficulty: 5,
+        goal: "Master unique fighters and defeat your opponent.",
+        recommendation: "Stylish anime fighting with deep mechanics!"
+    },
+
+    {
+        name: "Brawlhalla",
+        genre: "FTG",
+        platform: "PC / Console / Mobile",
+        players: "1-8",
+        difficulty: 3,
+        goal: "Knock your opponents off the stage.",
+        recommendation: "Easy to pick up and chaotic with friends!"
+    },
+
 
     // =========================
     // MUSIC GAME
@@ -987,7 +1226,7 @@ const games = [
     {
         name: "hololive Dreams",
         genre: "Music Game",
-        platform: "PC / Console / Mobile",
+        platform: "Mobile",
         players: "1+",
         difficulty: 3,
         goal: "Play through songs and enjoy rhythm-based gameplay.",
@@ -1017,7 +1256,7 @@ const games = [
     {
         name: "Just Dance",
         genre: "Music Game",
-        platform: "PC / Console",
+        platform: "Console",
         players: "1-6",
         difficulty: 2,
         goal: "Dance along with songs and score points.",
@@ -1072,8 +1311,17 @@ const games = [
         difficulty: 4,
         goal: "Hit the correct notes and win musical battles.",
         recommendation: "Great for rhythm and music fans!"
-    }
+    },
 
+    {
+        name: "A Dance of Fire and Ice",
+        genre: "Music Game",
+        platform: "PC / Mobile",
+        players: "1",
+        difficulty: 5,
+        goal: "Control two planets and follow the rhythm perfectly.",
+        recommendation: "Simple concept with extremely challenging levels!"
+    }
 
 ];
 
@@ -1083,9 +1331,7 @@ const games = [
 // =========================
 
 const generateButton = document.getElementById("generateButton");
-
 const genreSelect = document.getElementById("genre");
-
 const result = document.getElementById("result");
 
 
@@ -1093,102 +1339,4 @@ generateButton.addEventListener("click", function () {
 
     const selectedGenre = genreSelect.value;
 
-    let availableGames;
-
-
-    // Random = use every game
-    if (selectedGenre === "Random") {
-
-        availableGames = games;
-
-    }
-
-    // Selected genre
-    else {
-
-        availableGames = games.filter(function (game) {
-
-            return game.genre === selectedGenre;
-
-        });
-
-    }
-
-
-    // Safety check
-    if (availableGames.length === 0) {
-
-        result.innerHTML = `
-            <h2>❌ No Games Found</h2>
-            <p>There are no games in this category yet.</p>
-        `;
-
-        return;
-
-    }
-
-
-    // Choose random game
-    const randomIndex = Math.floor(
-        Math.random() * availableGames.length
-    );
-
-    const game = availableGames[randomIndex];
-
-
-    // Difficulty stars
-    const stars = "⭐".repeat(game.difficulty);
-
-
-    // Display result
-    result.innerHTML = `
-
-        <h2>🎮 Your Game</h2>
-
-        <div class="game-name">
-            ${game.name}
-        </div>
-
-        <div class="info">
-
-            <div class="info-box">
-                🎯 Genre<br>
-                <strong>${game.genre}</strong>
-            </div>
-
-            <div class="info-box">
-                💻 Platform<br>
-                <strong>${game.platform}</strong>
-            </div>
-
-            <div class="info-box">
-                👥 Players<br>
-                <strong>${game.players}</strong>
-            </div>
-
-            <div class="info-box">
-                🔥 Difficulty<br>
-                <strong>${stars}</strong>
-            </div>
-
-        </div>
-
-        <div class="info-box" style="margin-top: 12px;">
-
-            🏆 Goal<br>
-
-            <strong>
-                ${game.goal}
-            </strong>
-
-        </div>
-
-        <div class="recommendation">
-
-            💡 ${game.recommendation}
-
-        </div>
-
-    `;
-
-});
+   
