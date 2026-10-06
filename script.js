@@ -987,8 +987,8 @@ const games = [
     {
         name: "hololive Dreams",
         genre: "Music Game",
-        platform: "PC / Console",
-        players: "1",
+        platform: "PC / Console / Mobile",
+        players: "1+",
         difficulty: 3,
         goal: "Play through songs and enjoy rhythm-based gameplay.",
         recommendation: "Great for hololive and rhythm game fans!"
