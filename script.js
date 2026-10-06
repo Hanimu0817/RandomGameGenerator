@@ -5,43 +5,23 @@ const games = [
     // =========================
 
     {
-        name: "Hades",
+        name: "Dead Cells",
+        genre: "Action",
+        platform: "PC / Console / Mobile",
+        players: "1",
+        difficulty: 4,
+        goal: "Explore dangerous areas, defeat enemies and become stronger through repeated runs.",
+        recommendation: "Fast combat and roguelite gameplay make every run exciting!"
+    },
+
+    {
+        name: "Devil May Cry",
         genre: "Action",
         platform: "PC / Console",
         players: "1",
         difficulty: 4,
-        goal: "Fight through the Underworld and escape.",
-        recommendation: "Fast combat and challenging runs!"
-    },
-
-    {
-        name: "Hades II",
-        genre: "Action",
-        platform: "PC / Console",
-        players: "1",
-        difficulty: 4,
-        goal: "Battle through the Underworld using powerful abilities.",
-        recommendation: "Great for roguelike action fans!"
-    },
-
-    {
-        name: "Devil May Cry 5",
-        genre: "Action",
-        platform: "PC / Console",
-        players: "1",
-        difficulty: 4,
-        goal: "Fight demons using stylish and powerful combat.",
-        recommendation: "Perfect for stylish action combat!"
-    },
-
-    {
-        name: "Elden Ring",
-        genre: "Action",
-        platform: "PC / Console",
-        players: "1-3",
-        difficulty: 5,
-        goal: "Explore the Lands Between and defeat powerful enemies.",
-        recommendation: "Huge world, huge bosses and huge difficulty!"
+        goal: "Fight demons using powerful weapons, combos and special abilities.",
+        recommendation: "Perfect if you enjoy stylish and fast-paced combat!"
     },
 
     {
@@ -50,88 +30,48 @@ const games = [
         platform: "PC / Console",
         players: "1-4",
         difficulty: 4,
-        goal: "Hunt powerful monsters and craft stronger equipment.",
-        recommendation: "Great for boss fights and teamwork!"
+        goal: "Hunt powerful monsters, collect materials and create stronger equipment.",
+        recommendation: "Great for players who enjoy challenging boss fights!"
     },
 
     {
-        name: "Dark Souls",
+        name: "Elden Ring",
         genre: "Action",
         platform: "PC / Console",
-        players: "1",
+        players: "1-3",
         difficulty: 5,
-        goal: "Explore a dangerous world and defeat powerful enemies.",
-        recommendation: "Prepare yourself. This one does not forgive mistakes."
+        goal: "Explore a huge fantasy world and defeat powerful enemies and bosses.",
+        recommendation: "A massive adventure with incredible freedom and challenge!"
     },
 
     {
-        name: "God of War",
+        name: "Metal Gear",
         genre: "Action",
         platform: "PC / Console",
         players: "1",
         difficulty: 4,
-        goal: "Fight mythical enemies and uncover an epic story.",
-        recommendation: "Great story combined with powerful combat!"
+        goal: "Use stealth, weapons and strategy to complete dangerous missions.",
+        recommendation: "Great for players who enjoy stealth and tactical gameplay!"
     },
 
     {
-        name: "Sekiro: Shadows Die Twice",
+        name: "Hollow Knight",
         genre: "Action",
-        platform: "PC / Console",
-        players: "1",
-        difficulty: 5,
-        goal: "Master sword combat and defeat powerful enemies.",
-        recommendation: "Extremely challenging but incredibly rewarding!"
-    },
-
-    {
-        name: "Metal Gear Rising: Revengeance",
-        genre: "Action",
-        platform: "PC / Console",
+        platform: "PC / Console / Switch",
         players: "1",
         difficulty: 4,
-        goal: "Use powerful sword combat to defeat enemies.",
-        recommendation: "Ridiculously stylish action!"
+        goal: "Explore a mysterious underground kingdom and defeat dangerous creatures.",
+        recommendation: "Amazing exploration, atmosphere and challenging combat!"
     },
 
     {
-        name: "Bayonetta",
+        name: "Hollow Knight: Silksong",
         genre: "Action",
-        platform: "PC / Console",
+        platform: "PC / Console / Switch",
         players: "1",
         difficulty: 4,
-        goal: "Fight supernatural enemies using stylish combat.",
-        recommendation: "Fast, flashy and full of crazy combos!"
-    },
-
-    {
-        name: "Doom Eternal",
-        genre: "Action",
-        platform: "PC / Console",
-        players: "1",
-        difficulty: 5,
-        goal: "Fight through hordes of demons using powerful weapons.",
-        recommendation: "Extremely fast and intense action!"
-    },
-
-    {
-        name: "NieR:Automata",
-        genre: "Action",
-        platform: "PC / Console",
-        players: "1",
-        difficulty: 4,
-        goal: "Explore a ruined world and fight mysterious machines.",
-        recommendation: "Amazing story combined with stylish combat!"
-    },
-
-    {
-        name: "Hi-Fi Rush",
-        genre: "Action",
-        platform: "PC / Console",
-        players: "1",
-        difficulty: 3,
-        goal: "Fight enemies while matching your attacks to the music.",
-        recommendation: "Action combat with a fantastic rhythm twist!"
+        goal: "Explore a mysterious kingdom and fight enemies using fast movement and combat.",
+        recommendation: "A great choice for Hollow Knight fans!"
     },
 
 
@@ -140,53 +80,23 @@ const games = [
     // =========================
 
     {
-        name: "Pokémon",
-        genre: "RPG",
-        platform: "Nintendo Switch",
-        players: "1-2",
-        difficulty: 2,
-        goal: "Catch Pokémon, build a team and become the champion.",
-        recommendation: "A great choice for a relaxing RPG adventure!"
-    },
-
-    {
-        name: "Persona 5 Royal",
-        genre: "RPG",
-        platform: "PC / Console / Switch",
-        players: "1",
-        difficulty: 3,
-        goal: "Live as a student while fighting supernatural enemies.",
-        recommendation: "Excellent if you like story-heavy RPGs!"
-    },
-
-    {
         name: "Genshin Impact",
         genre: "RPG",
-        platform: "PC / Mobile / Console",
+        platform: "PC / Console / Mobile",
         players: "1-4",
         difficulty: 3,
-        goal: "Explore Teyvat, collect characters and uncover its mysteries.",
-        recommendation: "Great for open-world exploration!"
+        goal: "Explore Teyvat, collect characters and uncover the story.",
+        recommendation: "Great open-world RPG with exploration and character collecting!"
     },
 
     {
         name: "Honkai: Star Rail",
         genre: "RPG",
-        platform: "PC / Mobile / Console",
+        platform: "PC / Console / Mobile",
         players: "1",
         difficulty: 3,
-        goal: "Travel across different worlds and battle enemies.",
-        recommendation: "Great if you enjoy turn-based combat!"
-    },
-
-    {
-        name: "Wuthering Waves",
-        genre: "RPG",
-        platform: "PC / Mobile / Console",
-        players: "1-3",
-        difficulty: 4,
-        goal: "Explore a ruined world and fight mysterious enemies.",
-        recommendation: "Fast combat and beautiful exploration!"
+        goal: "Travel across different worlds and uncover a mysterious story.",
+        recommendation: "Excellent turn-based combat and story!"
     },
 
     {
@@ -195,48 +105,8 @@ const games = [
         platform: "PC / Console",
         players: "1",
         difficulty: 3,
-        goal: "Experience an epic fantasy adventure.",
-        recommendation: "A classic RPG series with huge stories!"
-    },
-
-    {
-        name: "Digimon Story: Time Stranger",
-        genre: "RPG",
-        platform: "PC / Console",
-        players: "1",
-        difficulty: 3,
-        goal: "Explore the Digital World and build a powerful Digimon team.",
-        recommendation: "Perfect for Digimon fans!"
-    },
-
-    {
-        name: "Palworld",
-        genre: "RPG",
-        platform: "PC / Console",
-        players: "1-4+",
-        difficulty: 3,
-        goal: "Capture creatures, build bases and survive.",
-        recommendation: "A chaotic combination of survival and creature collecting!"
-    },
-    
-    {
-        name: "Deltarune",
-        genre: "RPG",
-        platform: "PC / Console",
-        players: "1",
-        difficulty: 3,
-        goal: "Explore a strange world, meet unusual characters and battle enemies.",
-        recommendation: "Perfect for Undertale fans and story-focused RPG players!"
-    },
-
-    {
-        name: "Undertale",
-        genre: "RPG",
-        platform: "PC / Console / Mobile",
-        players: "1",
-        difficulty: 3,
-        goal: "Explore the Underground and decide how you deal with its inhabitants.",
-        recommendation: "A small RPG with a huge amount of personality!"
+        goal: "Explore fantasy worlds, fight enemies and experience an epic story.",
+        recommendation: "One of the most famous RPG series ever made!"
     },
 
     {
@@ -278,74 +148,25 @@ const games = [
         goal: "Return to Inaba and experience the Persona 4 story again.",
         recommendation: "Perfect for Persona fans who want to revisit Inaba!"
     },
-    {
-        name: "Arknights",
-        genre: "RPG",
-        platform: "Mobile / PC",
-        players: "1",
-        difficulty: 4,
-        goal: "Deploy operators and defend against dangerous enemies.",
-        recommendation: "Great for strategy and character collecting!"
-    },
 
     {
-        name: "Aniimon",
+        name: "Deltarune",
         genre: "RPG",
-        platform: "PC / Mobile",
-        players: "1+",
+        platform: "PC / Console",
+        players: "1",
         difficulty: 3,
-        goal: "Explore the world and collect powerful creatures.",
-        recommendation: "A fun choice for creature-collecting fans!"
+        goal: "Explore a strange world, meet unusual characters and battle enemies.",
+        recommendation: "Perfect for Undertale fans and story-focused RPG players!"
     },
 
     {
-        name: "Limbus Company",
-        genre: "RPG",
-        platform: "PC / Mobile",
-        players: "1",
-        difficulty: 5,
-        goal: "Lead the Sinners through dangerous missions and uncover mysterious stories.",
-        recommendation: "Dark story, unusual combat and lots of lore!"
-    },
-
-    {
-        name: "Dragon Quest",
+        name: "Undertale",
         genre: "RPG",
         platform: "PC / Console / Mobile",
         players: "1",
         difficulty: 3,
-        goal: "Travel through a fantasy world and defeat powerful enemies.",
-        recommendation: "A classic fantasy RPG experience!"
-    },
-
-    {
-        name: "Kingdom Hearts",
-        genre: "RPG",
-        platform: "PC / Console",
-        players: "1",
-        difficulty: 4,
-        goal: "Travel between worlds and fight mysterious enemies.",
-        recommendation: "A unique mix of action and fantasy!"
-    },
-
-    {
-        name: "Baldur's Gate 3",
-        genre: "RPG",
-        platform: "PC / Console",
-        players: "1-4",
-        difficulty: 4,
-        goal: "Explore a fantasy world and shape your own adventure.",
-        recommendation: "Amazing for choices, exploration and party-based RPGs!"
-    },
-
-    {
-        name: "The Elder Scrolls V: Skyrim",
-        genre: "RPG",
-        platform: "PC / Console",
-        players: "1",
-        difficulty: 3,
-        goal: "Explore Skyrim and become a powerful hero.",
-        recommendation: "Perfect for huge open-world RPG adventures!"
+        goal: "Explore the Underground and decide how you deal with its inhabitants.",
+        recommendation: "A small RPG with a huge amount of personality!"
     },
 
     {
@@ -354,8 +175,18 @@ const games = [
         platform: "PC / Console",
         players: "1",
         difficulty: 4,
-        goal: "Explore Night City and shape your own story.",
-        recommendation: "Great futuristic open-world RPG!"
+        goal: "Explore Night City, complete missions and shape your character's story.",
+        recommendation: "Great open-world RPG with a futuristic setting!"
+    },
+
+    {
+        name: "Digimon Story: Time Stranger",
+        genre: "RPG",
+        platform: "PC / Console",
+        players: "1",
+        difficulty: 3,
+        goal: "Collect Digimon, battle enemies and explore a time-based adventure.",
+        recommendation: "Perfect for Digimon fans who enjoy monster-collecting RPGs!"
     },
 
 
@@ -369,48 +200,28 @@ const games = [
         platform: "PC / Console / Mobile",
         players: "1-8+",
         difficulty: 3,
-        goal: "Survive, explore, build and defeat powerful enemies.",
-        recommendation: "Perfect if you want freedom and endless exploration!"
+        goal: "Collect resources, build structures and survive in a procedurally generated world.",
+        recommendation: "You can build almost anything you can imagine!"
     },
 
     {
-        name: "Terraria",
+        name: "Palworld",
         genre: "Survival",
         platform: "PC / Console",
-        players: "1-8",
+        players: "1-4+",
         difficulty: 4,
-        goal: "Explore, collect resources and defeat powerful bosses.",
-        recommendation: "Great for exploration and boss fights!"
+        goal: "Survive, capture creatures, build a base and explore the world.",
+        recommendation: "A crazy combination of survival, crafting and creature collecting!"
     },
 
     {
-        name: "Subnautica",
+        name: "The Binding of Isaac",
         genre: "Survival",
-        platform: "PC / Console",
-        players: "1",
-        difficulty: 4,
-        goal: "Explore an alien ocean and survive on an unknown planet.",
-        recommendation: "Perfect for mysterious exploration!"
-    },
-
-    {
-        name: "Don't Starve",
-        genre: "Survival",
-        platform: "PC / Console",
-        players: "1-6",
+        platform: "PC / Console / Switch",
+        players: "1-2",
         difficulty: 5,
-        goal: "Gather resources and survive in a strange dangerous world.",
-        recommendation: "A great challenge for survival game fans!"
-    },
-
-    {
-        name: "PEAK",
-        genre: "Survival",
-        platform: "PC",
-        players: "1-4",
-        difficulty: 4,
-        goal: "Climb a dangerous mountain while surviving unexpected hazards.",
-        recommendation: "Even better when your friends accidentally ruin everything!"
+        goal: "Explore randomly generated rooms, defeat enemies and survive each run.",
+        recommendation: "Extremely replayable roguelike gameplay!"
     },
 
     {
@@ -419,88 +230,28 @@ const games = [
         platform: "PC",
         players: "1-6",
         difficulty: 4,
-        goal: "Work together to collect valuable items while surviving dangerous enemies.",
-        recommendation: "Chaotic cooperative horror with physics!"
+        goal: "Explore dangerous locations, collect valuable objects and survive together.",
+        recommendation: "Chaotic multiplayer survival that is hilarious with friends!"
     },
 
     {
-        name: "Grounded",
-        genre: "Survival",
-        platform: "PC / Console",
-        players: "1-4",
-        difficulty: 4,
-        goal: "Survive while exploring a giant backyard.",
-        recommendation: "Everything is terrifying when you're tiny!"
-    },
-
-    {
-        name: "Rust",
-        genre: "Survival",
-        platform: "PC / Console",
-        players: "1-100+",
-        difficulty: 5,
-        goal: "Gather resources, build a base and survive other players.",
-        recommendation: "A brutal survival experience!"
-    },
-
-    {
-        name: "ARK: Survival Evolved",
-        genre: "Survival",
-        platform: "PC / Console / Mobile",
-        players: "1+",
-        difficulty: 5,
-        goal: "Survive, build and tame dinosaurs.",
-        recommendation: "Perfect if you want survival with dinosaurs!"
-    },
-
-    {
-        name: "Raft",
-        genre: "Survival",
-        platform: "PC / Console",
-        players: "1-4",
-        difficulty: 3,
-        goal: "Build a raft and survive in the middle of the ocean.",
-        recommendation: "Great cooperative survival adventure!"
-    },
-
-    {
-        name: "Sons of the Forest",
+        name: "PEAK",
         genre: "Survival",
         platform: "PC",
-        players: "1-8",
-        difficulty: 5,
-        goal: "Explore a mysterious island and survive its dangers.",
-        recommendation: "Great for survival horror with friends!"
+        players: "1-4",
+        difficulty: 4,
+        goal: "Climb a dangerous mountain while managing resources and avoiding hazards.",
+        recommendation: "Very fun when you and your friends keep messing up!"
     },
 
     {
-        name: "The Binding of Isaac",
+        name: "Chained Together",
         genre: "Survival",
-        platform: "PC / Console / Mobile",
-        players: "1-2",
+        platform: "PC",
+        players: "1-4",
         difficulty: 5,
-        goal: "Explore randomly generated rooms and survive increasingly difficult enemies.",
-        recommendation: "A massive roguelike with endless replayability!"
-    },
-
-    {
-        name: "Don't Starve Together",
-        genre: "Survival",
-        platform: "PC / Console / Mobile",
-        players: "1-6",
-        difficulty: 5,
-        goal: "Work together to survive in a dangerous strange world.",
-        recommendation: "Survival gets much harder when you have friends!"
-    },
-
-    {
-        name: "DayZ",
-        genre: "Survival",
-        platform: "PC / Console",
-        players: "Multiplayer",
-        difficulty: 5,
-        goal: "Survive in a dangerous post-apocalyptic world.",
-        recommendation: "Very unforgiving survival gameplay!"
+        goal: "Climb as high as possible while being chained to your teammates.",
+        recommendation: "Teamwork is everything... until someone falls!"
     },
 
 
@@ -509,93 +260,13 @@ const games = [
     // =========================
 
     {
-        name: "Civilization VI",
-        genre: "Strategy",
-        platform: "PC / Console",
-        players: "1-12",
-        difficulty: 5,
-        goal: "Build an empire and lead your civilization to victory.",
-        recommendation: "Perfect for strategic thinkers!"
-    },
-
-    {
-        name: "League of Legends",
-        genre: "Strategy",
-        platform: "PC",
-        players: "5v5",
-        difficulty: 5,
-        goal: "Work with your team and destroy the enemy Nexus.",
-        recommendation: "Great if you enjoy competitive team games!"
-    },
-
-    {
         name: "Dota 2",
         genre: "Strategy",
         platform: "PC",
         players: "5v5",
         difficulty: 5,
-        goal: "Work with your team and destroy the enemy Ancient.",
-        recommendation: "Deep strategy and an extremely high skill ceiling!"
-    },
-
-    {
-        name: "Clash Royale",
-        genre: "Strategy",
-        platform: "Mobile",
-        players: "1v1 / 2v2",
-        difficulty: 4,
-        goal: "Use cards and strategy to destroy enemy towers.",
-        recommendation: "Quick matches with lots of strategy!"
-    },
-
-    {
-        name: "Brawl Stars",
-        genre: "Strategy",
-        platform: "Mobile",
-        players: "1-6",
-        difficulty: 3,
-        goal: "Choose a Brawler and compete in different game modes.",
-        recommendation: "Fast matches and lots of different characters!"
-    },
-
-    {
-        name: "Among Us",
-        genre: "Strategy",
-        platform: "PC / Mobile / Console",
-        players: "4-15",
-        difficulty: 2,
-        goal: "Complete tasks while figuring out who the impostors are.",
-        recommendation: "Best played with friends and maximum chaos!"
-    },
-
-    {
-        name: "Plants vs. Zombies",
-        genre: "Strategy",
-        platform: "PC / Mobile",
-        players: "1",
-        difficulty: 2,
-        goal: "Defend your home using plants against zombies.",
-        recommendation: "Simple to learn but surprisingly strategic!"
-    },
-
-    {
-        name: "Teamfight Tactics",
-        genre: "Strategy",
-        platform: "PC / Mobile",
-        players: "1-8",
-        difficulty: 4,
-        goal: "Build a powerful team and outlast your opponents.",
-        recommendation: "Great for strategy and team-building!"
-    },
-
-    {
-        name: "Bloons TD 6",
-        genre: "Strategy",
-        platform: "PC / Mobile",
-        players: "1-4",
-        difficulty: 3,
-        goal: "Build towers and stop waves of balloons.",
-        recommendation: "Easy to start and surprisingly deep!"
+        goal: "Work with your team to destroy the enemy Ancient.",
+        recommendation: "Deep strategy and huge character variety!"
     },
 
     {
@@ -604,28 +275,28 @@ const games = [
         platform: "PC / Mobile",
         players: "1",
         difficulty: 2,
-        goal: "Create, simulate and control your own world.",
-        recommendation: "Perfect if you want to play god!"
+        goal: "Create worlds, civilizations and creatures and watch them develop.",
+        recommendation: "You basically become the god of your own world!"
     },
 
     {
-        name: "Stellaris",
+        name: "Clash Royale",
         genre: "Strategy",
-        platform: "PC / Console",
-        players: "1+",
-        difficulty: 5,
-        goal: "Build an interstellar civilization and explore the galaxy.",
-        recommendation: "Huge strategy possibilities for space fans!"
+        platform: "Mobile",
+        players: "1v1 / 2v2",
+        difficulty: 4,
+        goal: "Use cards strategically to destroy your opponent's towers.",
+        recommendation: "Simple to learn but surprisingly difficult to master!"
     },
 
     {
-        name: "Age of Empires IV",
+        name: "Arknights",
         genre: "Strategy",
-        platform: "PC / Console",
-        players: "1-8",
-        difficulty: 5,
-        goal: "Build an empire, manage resources and defeat your enemies.",
-        recommendation: "Classic real-time strategy!"
+        platform: "Mobile",
+        players: "1",
+        difficulty: 4,
+        goal: "Deploy operators strategically to defend against enemy waves.",
+        recommendation: "Excellent tower-defense strategy with a strong story!"
     },
 
 
@@ -634,133 +305,23 @@ const games = [
     // =========================
 
     {
-        name: "The Legend of Zelda",
-        genre: "Adventure",
-        platform: "Nintendo Switch",
-        players: "1",
-        difficulty: 3,
-        goal: "Explore a huge world, solve puzzles and defeat enemies.",
-        recommendation: "A fantastic choice for exploration!"
-    },
-
-    {
-        name: "Roblox",
-        genre: "Adventure",
-        platform: "PC / Mobile / Console",
-        players: "1+",
-        difficulty: 2,
-        goal: "Explore thousands of different user-created games.",
-        recommendation: "Perfect when you don't know what you want to play!"
-    },
-
-    {
         name: "Grand Theft Auto V",
         genre: "Adventure",
         platform: "PC / Console",
-        players: "1-30",
-        difficulty: 4,
-        goal: "Explore Los Santos and experience an open-world story.",
+        players: "1 / Multiplayer",
+        difficulty: 3,
+        goal: "Explore an open world and experience different characters and missions.",
         recommendation: "Huge open world with tons of things to do!"
     },
 
     {
-        name: "Red Dead Redemption 2",
-        genre: "Adventure",
-        platform: "PC / Console",
-        players: "1-32",
-        difficulty: 4,
-        goal: "Explore the Wild West and experience an epic story.",
-        recommendation: "Amazing open-world adventure!"
-    },
-
-    {
-        name: "Metal Gear Solid",
+        name: "Red Dead Redemption",
         genre: "Adventure",
         platform: "PC / Console",
         players: "1",
-        difficulty: 4,
-        goal: "Use stealth and strategy to complete dangerous missions.",
-        recommendation: "Perfect for players who enjoy stealth!"
-    },
-
-    {
-        name: "Mario Kart",
-        genre: "Adventure",
-        platform: "Nintendo Switch",
-        players: "1-4+",
         difficulty: 3,
-        goal: "Race against other characters using items and abilities.",
-        recommendation: "Great for chaotic multiplayer races!"
-    },
-
-    {
-        name: "Mario Party",
-        genre: "Adventure",
-        platform: "Nintendo Switch",
-        players: "1-4",
-        difficulty: 2,
-        goal: "Compete in mini-games and collect the most stars.",
-        recommendation: "Perfect for playing with friends!"
-    },
-
-    {
-        name: "Rocket League",
-        genre: "Adventure",
-        platform: "PC / Console",
-        players: "1-8",
-        difficulty: 4,
-        goal: "Play football using rocket-powered cars.",
-        recommendation: "Easy to understand but difficult to master!"
-    },
-
-    {
-        name: "Minecraft Dungeons",
-        genre: "Adventure",
-        platform: "PC / Console",
-        players: "1-4",
-        difficulty: 3,
-        goal: "Explore dungeons, collect equipment and defeat enemies.",
-        recommendation: "Great if you like Minecraft and dungeon crawling!"
-    },
-
-    {
-        name: "How to Fish",
-        genre: "Adventure",
-        platform: "PC",
-        players: "1+",
-        difficulty: 2,
-        goal: "Fish, explore and discover different catches.",
-        recommendation: "A relaxing choice when you want something chill!"
-    },
-
-    {
-        name: "Chained Together",
-        genre: "Adventure",
-        platform: "PC",
-        players: "1-4",
-        difficulty: 4,
-        goal: "Work together while climbing through dangerous obstacles.",
-        recommendation: "A hilarious cooperative challenge!"
-    },
-
-    {
-        name: "Stardew Valley",
-        genre: "Adventure",
-        platform: "PC / Console / Mobile",
-        players: "1-4",
-        difficulty: 2,
-        goal: "Build your farm, meet villagers and explore the valley.",
-        recommendation: "A relaxing game when you just want to chill."
-    },
-
-    {
-        name: "Crossy Road",
-        genre: "Adventure",
-        platform: "Mobile / PC / Console",
-        players: "1+",
-        difficulty: 2,
-        goal: "Cross roads and rivers without getting hit.",
-        recommendation: "Simple, addictive and surprisingly difficult!"
+        goal: "Explore the Wild West and experience a dramatic story.",
+        recommendation: "Amazing world-building and storytelling!"
     },
 
     {
@@ -769,38 +330,58 @@ const games = [
         platform: "PC",
         players: "1+",
         difficulty: 2,
-        goal: "Create your own experiences using physics, tools and community content.",
-        recommendation: "Basically a giant sandbox for doing whatever you want!"
+        goal: "Create, experiment and play user-made game modes and maps.",
+        recommendation: "Your imagination is basically the limit!"
     },
 
     {
-        name: "Hollow Knight",
+        name: "Mario Kart",
         genre: "Adventure",
-        platform: "PC / Console",
-        players: "1",
-        difficulty: 5,
-        goal: "Explore a mysterious underground kingdom and defeat powerful enemies.",
-        recommendation: "Beautiful exploration with seriously challenging bosses!"
+        platform: "Console",
+        players: "1-4",
+        difficulty: 2,
+        goal: "Race against other players using items and different tracks.",
+        recommendation: "Perfect for chaotic multiplayer races!"
     },
 
     {
-        name: "Hollow Knight: Silksong",
+        name: "Mario Party",
         genre: "Adventure",
-        platform: "PC / Console",
-        players: "1",
-        difficulty: 5,
-        goal: "Explore a mysterious kingdom and master fast combat.",
-        recommendation: "A challenging adventure for Metroidvania fans!"
+        platform: "Console",
+        players: "1-4",
+        difficulty: 2,
+        goal: "Compete in board-game adventures and various mini-games.",
+        recommendation: "Great party game for friends and family!"
     },
 
     {
-        name: "Outer Wilds",
+        name: "Rocket League",
         genre: "Adventure",
         platform: "PC / Console",
-        players: "1",
+        players: "1-8",
         difficulty: 4,
-        goal: "Explore a mysterious solar system and uncover its secrets.",
-        recommendation: "One of the best exploration mysteries!"
+        goal: "Use rocket-powered cars to score goals against another team.",
+        recommendation: "Easy to understand but incredibly hard to master!"
+    },
+
+    {
+        name: "Crossy Road",
+        genre: "Adventure",
+        platform: "Mobile / PC",
+        players: "1+",
+        difficulty: 2,
+        goal: "Cross roads and obstacles without getting hit.",
+        recommendation: "Simple, addictive and perfect for quick games!"
+    },
+
+    {
+        name: "Aniimon",
+        genre: "Adventure",
+        platform: "Mobile",
+        players: "1+",
+        difficulty: 3,
+        goal: "Explore the world, collect creatures and develop your team.",
+        recommendation: "A fun choice for players who enjoy creature collecting!"
     },
 
 
@@ -813,9 +394,9 @@ const games = [
         genre: "Horror",
         platform: "PC",
         players: "1-4",
-        difficulty: 3,
-        goal: "Explore dangerous locations and record scary footage.",
-        recommendation: "Horror becomes much funnier with friends!"
+        difficulty: 4,
+        goal: "Record scary events with your friends and try to survive.",
+        recommendation: "The perfect mixture of horror and chaotic multiplayer!"
     },
 
     {
@@ -824,28 +405,28 @@ const games = [
         platform: "PC / Console",
         players: "1-4",
         difficulty: 4,
-        goal: "Investigate haunted locations and identify ghosts.",
-        recommendation: "Perfect for ghost-hunting with friends!"
+        goal: "Investigate haunted locations and identify supernatural activity.",
+        recommendation: "Much more fun when everyone is screaming together!"
     },
 
     {
         name: "Dark Deception",
         genre: "Horror",
-        platform: "PC",
+        platform: "PC / Console",
         players: "1",
         difficulty: 4,
-        goal: "Escape terrifying enemies while completing dangerous challenges.",
-        recommendation: "Fast-paced horror with lots of surprises!"
+        goal: "Escape dangerous creatures while completing mysterious challenges.",
+        recommendation: "Fast-paced horror with arcade-style gameplay!"
     },
 
     {
         name: "Doki Doki Literature Club",
         genre: "Horror",
-        platform: "PC / Console",
+        platform: "PC",
         players: "1",
         difficulty: 3,
-        goal: "Join a literature club and discover its disturbing secrets.",
-        recommendation: "Looks cute... but don't trust appearances."
+        goal: "Join a literature club and uncover its strange secrets.",
+        recommendation: "Looks cute at first... but don't trust appearances."
     },
 
     {
@@ -854,8 +435,8 @@ const games = [
         platform: "PC / Console / Mobile",
         players: "1",
         difficulty: 4,
-        goal: "Explore an abandoned toy factory and uncover its secrets.",
-        recommendation: "Perfect for creepy puzzles and monsters!"
+        goal: "Explore an abandoned toy factory and uncover what happened there.",
+        recommendation: "Great puzzle-focused horror adventure!"
     },
 
     {
@@ -864,8 +445,8 @@ const games = [
         platform: "PC / Mobile",
         players: "1",
         difficulty: 4,
-        goal: "Escape the house without getting caught.",
-        recommendation: "Stay quiet... Granny is listening."
+        goal: "Escape from a dangerous house while avoiding Granny.",
+        recommendation: "Simple gameplay but surprisingly stressful!"
     },
 
     {
@@ -874,48 +455,8 @@ const games = [
         platform: "PC / Mobile",
         players: "1",
         difficulty: 3,
-        goal: "Explore the area and rescue your friends.",
-        recommendation: "A creepy puzzle adventure!"
-    },
-
-    {
-        name: "Dead by Daylight",
-        genre: "Horror",
-        platform: "PC / Console / Mobile",
-        players: "4v1",
-        difficulty: 4,
-        goal: "Survive the killer or hunt down the survivors.",
-        recommendation: "Great for multiplayer horror!"
-    },
-
-    {
-        name: "Resident Evil",
-        genre: "Horror",
-        platform: "PC / Console",
-        players: "1",
-        difficulty: 4,
-        goal: "Survive terrifying enemies and uncover the mystery.",
-        recommendation: "Classic survival horror!"
-    },
-
-    {
-        name: "Five Nights at Freddy's",
-        genre: "Horror",
-        platform: "PC / Console / Mobile",
-        players: "1",
-        difficulty: 4,
-        goal: "Survive the night while monitoring dangerous animatronics.",
-        recommendation: "Classic survival horror!"
-    },
-
-    {
-        name: "Outlast",
-        genre: "Horror",
-        platform: "PC / Console",
-        players: "1",
-        difficulty: 5,
-        goal: "Investigate a terrifying abandoned facility.",
-        recommendation: "Run first. Ask questions later."
+        goal: "Investigate a mysterious ice cream seller and rescue your friends.",
+        recommendation: "Fun puzzle-based horror series!"
     },
 
     {
@@ -924,8 +465,8 @@ const games = [
         platform: "PC",
         players: "1",
         difficulty: 4,
-        goal: "Observe people carefully and determine who is not human.",
-        recommendation: "Perfect if you enjoy paranoia and observation horror!"
+        goal: "Survive in a strange world while deciding who you can trust.",
+        recommendation: "Perfect for players who enjoy psychological mystery!"
     },
 
     {
@@ -935,37 +476,7 @@ const games = [
         players: "1",
         difficulty: 3,
         goal: "Find anomalies and escape an endless underground passage.",
-        recommendation: "Look carefully. Something is definitely wrong."
-    },
-
-    {
-        name: "The Closing Shift",
-        genre: "Horror",
-        platform: "PC",
-        players: "1",
-        difficulty: 3,
-        goal: "Work a late shift while strange events begin happening.",
-        recommendation: "A creepy psychological horror experience!"
-    },
-
-    {
-        name: "Little Nightmares",
-        genre: "Horror",
-        platform: "PC / Console / Mobile",
-        players: "1",
-        difficulty: 4,
-        goal: "Explore a strange world and escape terrifying creatures.",
-        recommendation: "Creepy atmosphere and clever puzzles!"
-    },
-
-    {
-        name: "Amnesia: The Dark Descent",
-        genre: "Horror",
-        platform: "PC / Console",
-        players: "1",
-        difficulty: 5,
-        goal: "Explore a mysterious castle while uncovering its secrets.",
-        recommendation: "Classic atmospheric horror!"
+        recommendation: "A simple concept that creates a surprisingly creepy atmosphere!"
     },
 
 
@@ -979,8 +490,8 @@ const games = [
         platform: "PC",
         players: "5v5",
         difficulty: 5,
-        goal: "Work with your team and complete objectives.",
-        recommendation: "Classic tactical competitive shooting!"
+        goal: "Work with your team to complete objectives and defeat the enemy team.",
+        recommendation: "Classic competitive FPS gameplay!"
     },
 
     {
@@ -989,28 +500,28 @@ const games = [
         platform: "PC",
         players: "5v5",
         difficulty: 5,
-        goal: "Use weapons and abilities to defeat the enemy team.",
-        recommendation: "Great for tactical teamwork and precise aim!"
+        goal: "Use weapons and unique abilities to defeat the opposing team.",
+        recommendation: "Great combination of shooting and tactical abilities!"
     },
 
     {
         name: "Call of Duty",
         genre: "Gun-Like",
         platform: "PC / Console / Mobile",
-        players: "1-100+",
+        players: "1+",
         difficulty: 4,
-        goal: "Fight through intense multiplayer battles and missions.",
-        recommendation: "Fast-paced competitive action!"
+        goal: "Fight through fast-paced missions and multiplayer battles.",
+        recommendation: "One of the most famous FPS franchises!"
     },
 
     {
         name: "Delta Force",
         genre: "Gun-Like",
-        platform: "PC / Console",
-        players: "Multiplayer",
+        platform: "PC / Console / Mobile",
+        players: "1+",
         difficulty: 4,
-        goal: "Complete tactical missions and defeat enemy forces.",
-        recommendation: "Great for military-style gameplay!"
+        goal: "Complete military missions and fight opposing forces.",
+        recommendation: "Great for players who like military FPS games!"
     },
 
     {
@@ -1019,8 +530,18 @@ const games = [
         platform: "PC / Console / Mobile",
         players: "1-4",
         difficulty: 4,
-        goal: "Survive and become the last player or team standing.",
+        goal: "Survive against other players and become the last team standing.",
         recommendation: "Classic battle royale gameplay!"
+    },
+
+    {
+        name: "War Thunder",
+        genre: "Gun-Like",
+        platform: "PC / Console",
+        players: "1+",
+        difficulty: 5,
+        goal: "Control military vehicles and compete in large-scale battles.",
+        recommendation: "Great if you enjoy realistic military vehicles!"
     },
 
     {
@@ -1029,8 +550,8 @@ const games = [
         platform: "PC / Console",
         players: "5v5",
         difficulty: 4,
-        goal: "Work together using unique heroes and abilities.",
-        recommendation: "Fast team fights with lots of heroes!"
+        goal: "Work together using different heroes and abilities to win matches.",
+        recommendation: "Fast team-based FPS gameplay with many unique heroes!"
     },
 
     {
@@ -1040,7 +561,7 @@ const games = [
         players: "1-3",
         difficulty: 5,
         goal: "Fight other squads and become the last team standing.",
-        recommendation: "Fast movement and intense matches!"
+        recommendation: "Fast movement and exciting battle royale combat!"
     },
 
     {
@@ -1049,58 +570,38 @@ const games = [
         platform: "PC / Console",
         players: "5v5",
         difficulty: 5,
-        goal: "Attack or defend objectives using tactical teamwork.",
-        recommendation: "Perfect for strategic shooters!"
-    },
-
-    {
-        name: "Helldivers 2",
-        genre: "Gun-Like",
-        platform: "PC / Console",
-        players: "1-4",
-        difficulty: 4,
-        goal: "Fight enemies across dangerous planets.",
-        recommendation: "Chaotic cooperative shooting with friends!"
+        goal: "Attack or defend objectives using tactical planning and special equipment.",
+        recommendation: "Excellent tactical FPS for players who like strategy!"
     },
 
     {
         name: "Battlefield",
         genre: "Gun-Like",
         platform: "PC / Console",
-        players: "Multiplayer",
+        players: "1+",
         difficulty: 4,
-        goal: "Fight across huge battlefields with your team.",
-        recommendation: "Great for large-scale battles!"
-    },
-
-    {
-        name: "War Thunder",
-        genre: "Gun-Like",
-        platform: "PC / Console / Mobile",
-        players: "Multiplayer",
-        difficulty: 5,
-        goal: "Control military vehicles and compete in large-scale battles.",
-        recommendation: "Perfect for tanks, aircraft and military vehicles!"
+        goal: "Fight across large battlefields using infantry, vehicles and teamwork.",
+        recommendation: "Great for large-scale multiplayer battles!"
     },
 
     {
         name: "Titanfall 2",
         genre: "Gun-Like",
         platform: "PC / Console",
-        players: "1-16",
+        players: "1+",
         difficulty: 4,
         goal: "Fight using advanced weapons, movement and giant Titans.",
-        recommendation: "Amazing movement and fast-paced combat!"
+        recommendation: "Amazing movement and fast FPS combat!"
     },
 
     {
         name: "Team Fortress 2",
         genre: "Gun-Like",
         platform: "PC",
-        players: "Multiplayer",
-        difficulty: 3,
-        goal: "Choose a class and work with your team to complete objectives.",
-        recommendation: "Chaotic team-based shooting!"
+        players: "6+",
+        difficulty: 4,
+        goal: "Work with your team using different character classes.",
+        recommendation: "Classic team-based FPS with lots of personality!"
     },
 
 
@@ -1113,9 +614,9 @@ const games = [
         genre: "FTG",
         platform: "PC / Console",
         players: "1-2",
-        difficulty: 4,
-        goal: "Master fighters and defeat your opponent.",
-        recommendation: "A legendary fighting game series!"
+        difficulty: 5,
+        goal: "Fight opponents using attacks, combos and special moves.",
+        recommendation: "One of the most iconic fighting game series!"
     },
 
     {
@@ -1124,8 +625,8 @@ const games = [
         platform: "PC / Console",
         players: "1-2",
         difficulty: 5,
-        goal: "Master unique characters and powerful combos.",
-        recommendation: "Amazing visuals and deep fighting mechanics!"
+        goal: "Battle opponents using unique characters and powerful combos.",
+        recommendation: "Amazing anime-style fighting gameplay!"
     },
 
     {
@@ -1134,8 +635,8 @@ const games = [
         platform: "PC / Console",
         players: "6v6",
         difficulty: 4,
-        goal: "Use Marvel heroes and villains to defeat the opposing team.",
-        recommendation: "Great for Marvel fans who love competitive combat!"
+        goal: "Work with a team of Marvel heroes and villains to defeat the enemy team.",
+        recommendation: "Great choice if you like Marvel characters and team combat!"
     },
 
     {
@@ -1144,7 +645,7 @@ const games = [
         platform: "PC / Console",
         players: "1-2",
         difficulty: 4,
-        goal: "Fight opponents using powerful martial arts techniques.",
+        goal: "Fight opponents using different characters and special attacks.",
         recommendation: "A classic fighting game series!"
     },
 
@@ -1154,8 +655,8 @@ const games = [
         platform: "PC / Console",
         players: "1-2",
         difficulty: 5,
-        goal: "Master combos and defeat powerful fighters.",
-        recommendation: "One of the biggest 3D fighting game series!"
+        goal: "Defeat your opponent using martial arts and powerful combos.",
+        recommendation: "Excellent 3D fighting gameplay!"
     },
 
     {
@@ -1163,9 +664,9 @@ const games = [
         genre: "FTG",
         platform: "PC / Console",
         players: "1-2",
-        difficulty: 4,
-        goal: "Fight through intense battles and tournaments.",
-        recommendation: "A classic fighting franchise!"
+        difficulty: 5,
+        goal: "Defeat opponents using different fighters and special moves.",
+        recommendation: "A legendary fighting game franchise!"
     },
 
     {
@@ -1174,8 +675,8 @@ const games = [
         platform: "Nintendo Switch",
         players: "1-8",
         difficulty: 4,
-        goal: "Knock opponents off the stage using famous characters.",
-        recommendation: "Perfect for chaotic multiplayer battles!"
+        goal: "Battle famous characters and knock opponents off the stage.",
+        recommendation: "Fantastic multiplayer fighting game!"
     },
 
     {
@@ -1183,9 +684,9 @@ const games = [
         genre: "FTG",
         platform: "PC / Console",
         players: "1-2",
-        difficulty: 4,
-        goal: "Build a team of Dragon Ball fighters and defeat opponents.",
-        recommendation: "Amazing for Dragon Ball fans!"
+        difficulty: 5,
+        goal: "Use Dragon Ball characters to battle opponents with powerful combos.",
+        recommendation: "Perfect for Dragon Ball fans!"
     },
 
     {
@@ -1194,8 +695,8 @@ const games = [
         platform: "PC / Console",
         players: "1-2",
         difficulty: 5,
-        goal: "Build a team of fighters and defeat your opponents.",
-        recommendation: "Great for technical fighting game fans!"
+        goal: "Create a team of fighters and defeat opposing teams.",
+        recommendation: "Great classic competitive fighting!"
     },
 
     {
@@ -1204,8 +705,8 @@ const games = [
         platform: "PC / Console",
         players: "1-2",
         difficulty: 5,
-        goal: "Master unique fighters and defeat your opponent.",
-        recommendation: "Stylish anime fighting with deep mechanics!"
+        goal: "Master unique characters and defeat opponents in intense battles.",
+        recommendation: "Amazing visuals and deep combat!"
     },
 
     {
@@ -1214,8 +715,8 @@ const games = [
         platform: "PC / Console / Mobile",
         players: "1-8",
         difficulty: 3,
-        goal: "Knock your opponents off the stage.",
-        recommendation: "Easy to pick up and chaotic with friends!"
+        goal: "Knock opponents off the stage using different weapons.",
+        recommendation: "Easy to start and very fun with friends!"
     },
 
 
@@ -1229,18 +730,18 @@ const games = [
         platform: "Mobile",
         players: "1+",
         difficulty: 3,
-        goal: "Play through songs and enjoy rhythm-based gameplay.",
-        recommendation: "Great for hololive and rhythm game fans!"
+        goal: "Play rhythm-based gameplay while enjoying music and characters.",
+        recommendation: "Perfect for hololive fans who enjoy rhythm games!"
     },
 
     {
-        name: "Project SEKAI: Colorful Stage",
+        name: "Project Sekai: Colorful Stage",
         genre: "Music Game",
-        platform: "Mobile",
-        players: "1",
+        platform: "Mobile / PC",
+        players: "1+",
         difficulty: 4,
-        goal: "Play rhythm games and experience musical stories.",
-        recommendation: "Perfect for Vocaloid and rhythm game fans!"
+        goal: "Play rhythm charts and experience stories with different characters.",
+        recommendation: "Great rhythm game with lots of songs and stories!"
     },
 
     {
@@ -1249,18 +750,18 @@ const games = [
         platform: "PC / Mobile",
         players: "1",
         difficulty: 5,
-        goal: "Navigate through dangerous levels while following the music.",
-        recommendation: "Simple controls. Absolutely brutal levels."
+        goal: "Navigate through difficult levels while following the rhythm.",
+        recommendation: "Extremely addictive and challenging!"
     },
 
     {
         name: "Just Dance",
         genre: "Music Game",
-        platform: "Console",
+        platform: "Console / Mobile",
         players: "1-6",
-        difficulty: 2,
-        goal: "Dance along with songs and score points.",
-        recommendation: "Perfect for playing with friends!"
+        difficulty: 3,
+        goal: "Follow dance movements and score points along with music.",
+        recommendation: "Great party game for friends!"
     },
 
     {
@@ -1270,27 +771,27 @@ const games = [
         players: "1+",
         difficulty: 5,
         goal: "Hit notes accurately while following the rhythm.",
-        recommendation: "Fast hands and good rhythm are essential!"
+        recommendation: "Huge song library and extremely challenging gameplay!"
     },
 
     {
         name: "Beat Saber",
         genre: "Music Game",
-        platform: "PC / Console / VR",
+        platform: "VR",
         players: "1",
         difficulty: 4,
-        goal: "Slash blocks to the rhythm of music.",
-        recommendation: "One of the most fun VR rhythm games!"
+        goal: "Slice incoming blocks in time with the music.",
+        recommendation: "One of the most famous VR rhythm games!"
     },
 
     {
         name: "Muse Dash",
         genre: "Music Game",
-        platform: "PC / Mobile / Console",
+        platform: "PC / Mobile",
         players: "1",
-        difficulty: 3,
-        goal: "Defeat enemies and obstacles to the rhythm of music.",
-        recommendation: "Cute visuals mixed with fast rhythm gameplay!"
+        difficulty: 4,
+        goal: "Defeat enemies and obstacles while following the rhythm.",
+        recommendation: "Cute visuals combined with fast rhythm gameplay!"
     },
 
     {
@@ -1299,8 +800,8 @@ const games = [
         platform: "PC / Console / Mobile",
         players: "1-2",
         difficulty: 4,
-        goal: "Hit the drum notes in time with the music.",
-        recommendation: "Great for rhythm game fans!"
+        goal: "Hit the drum notes accurately to match the music.",
+        recommendation: "A classic rhythm game with lots of fun songs!"
     },
 
     {
@@ -1310,7 +811,7 @@ const games = [
         players: "1",
         difficulty: 4,
         goal: "Hit the correct notes and win musical battles.",
-        recommendation: "Great for rhythm and music fans!"
+        recommendation: "Simple controls with catchy music!"
     },
 
     {
@@ -1319,24 +820,125 @@ const games = [
         platform: "PC / Mobile",
         players: "1",
         difficulty: 5,
-        goal: "Control two planets and follow the rhythm perfectly.",
-        recommendation: "Simple concept with extremely challenging levels!"
+        goal: "Control two planets and keep them moving to the rhythm.",
+        recommendation: "Looks simple but becomes seriously challenging!"
     }
 
 ];
 
 
 // =========================
-// GENERATOR
+// GAME GENERATOR
 // =========================
 
 const generateButton = document.getElementById("generateButton");
 const genreSelect = document.getElementById("genre");
 const result = document.getElementById("result");
 
-
 generateButton.addEventListener("click", function () {
 
     const selectedGenre = genreSelect.value;
 
-   
+    let availableGames;
+
+    // Random mode
+    if (selectedGenre === "Random") {
+
+        availableGames = games;
+
+    } else {
+
+        // Only select games from the chosen genre
+        availableGames = games.filter(function (game) {
+
+            return game.genre === selectedGenre;
+
+        });
+
+    }
+
+
+    // Check if there are no games
+    if (availableGames.length === 0) {
+
+        result.innerHTML = `
+            <h2>❌ No Games Found</h2>
+
+            <p>
+                There are no games in this category yet.
+            </p>
+        `;
+
+        return;
+    }
+
+
+    // Choose a random game
+    const randomIndex = Math.floor(
+        Math.random() * availableGames.length
+    );
+
+    const game = availableGames[randomIndex];
+
+
+    // Create difficulty stars
+    const stars = "⭐".repeat(game.difficulty);
+
+
+    // Display the game
+    result.innerHTML = `
+
+        <h2>🎮 Your Game</h2>
+
+        <div class="game-name">
+            ${game.name}
+        </div>
+
+        <div class="info">
+
+            <div class="info-box">
+                🎯 Genre<br>
+                <strong>${game.genre}</strong>
+            </div>
+
+            <div class="info-box">
+                💻 Platform<br>
+                <strong>${game.platform}</strong>
+            </div>
+
+            <div class="info-box">
+                👥 Players<br>
+                <strong>${game.players}</strong>
+            </div>
+
+            <div class="info-box">
+                🔥 Difficulty<br>
+                <strong>${stars}</strong>
+            </div>
+
+        </div>
+
+
+        <div
+            class="info-box"
+            style="margin-top: 12px;"
+        >
+
+            🏆 Goal<br>
+
+            <strong>
+                ${game.goal}
+            </strong>
+
+        </div>
+
+
+        <div class="recommendation">
+
+            💡 ${game.recommendation}
+
+        </div>
+
+    `;
+
+});
